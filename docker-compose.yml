@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  func:
+    container_name: func
+    env_file:
+      - .env
+    environment:
+      AzureWebJobsScriptRoot: /www/dist
+      AZURE_FUNCTIONS_ENVIRONMENT: Development
+      FUNCTIONS_WORKER_RUNTIME: node
+      WEBSITE_NODE_DEFAULT_VERSION: 10.14.1
+    image: mcr.microsoft.com/azure-functions/node
+    ports:
+      - 7071:80
+    restart: always
+    volumes:
+      - .:/www
+    working_dir: /www
+
+  pack:
+    container_name: pack
+    image: node
+    command: yarn watch
+    volumes:
+      - .:/www
+    working_dir: /www

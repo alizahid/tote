@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5"
+  },
+  "include": ["src/*"]
+}
