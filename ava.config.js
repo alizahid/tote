@@ -2,6 +2,6 @@ export default {
   compileEnhancements: false,
   extensions: ['ts'],
   failFast: true,
-  require: ['ts-node/register', 'esm'],
+  require: ['esm', 'ts-node/register'],
   verbose: true
 }

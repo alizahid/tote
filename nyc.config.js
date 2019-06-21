@@ -5,5 +5,5 @@ module.exports = {
   functions: 100,
   include: ['src/**'],
   lines: 100,
-  reporter: ['lcov', 'html']
+  reporter: ['html', 'lcov']
 }
