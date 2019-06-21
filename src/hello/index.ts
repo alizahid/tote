@@ -9,7 +9,7 @@ class Hello extends Func {
 
   invoke() {
     const {
-      query: { number = 5 }
+      query: { number = 2 }
     } = this.request
 
     return {

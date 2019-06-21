@@ -2,9 +2,11 @@
 .env*
 yarn-error.log
 
+.nyc_output
 .rpt2_cache
 .vscode
 bin
+coverage
 dist
 node_modules
 obj
