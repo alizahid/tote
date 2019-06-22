@@ -5085,10 +5085,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-tote-lib@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/tote-lib/-/tote-lib-0.0.10.tgz#88ecf48dc4ba5d535f8dfc16ddb671b4ce831123"
-  integrity sha512-tMCKNC0nL6oCzIfacPYg8oqnwTKLj4OSZFKlUHfU9VlLqKXXyBNBEazOxT0fNUdE8/jprmhsJlWcqU8/2wmE9Q==
+tote-lib@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/tote-lib/-/tote-lib-0.0.11.tgz#b7e11564a470dfafa7aa1d19a8fe77916f4e05d3"
+  integrity sha512-pIGxDHE7b7mchm3oMx6GKUiFoD98VjtrD5oD0ZCjXMzNtzYsZ2peSnTgGKZoG2XRYmOuPDCfbjiEyjChoD4TQw==
   dependencies:
     "@hapi/joi" "^15.0.3"
     lodash.get "^4.4.2"
